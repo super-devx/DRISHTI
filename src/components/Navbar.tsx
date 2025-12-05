@@ -54,7 +54,7 @@ const Navbar = () => {
               transition={{ type: 'spring', stiffness: 300 }}
             >
               <h1 className="text-2xl md:text-3xl font-bold text-blue-900">
-                DRISHTI
+                DRISHTI LAB
               </h1>
               <p className="text-xs md:text-sm text-teal-600 -mt-1">
                 Deep Research in Intelligent Sensors, Heuristic Technology & IoT
