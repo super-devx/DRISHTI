@@ -1,0 +1,21 @@
+{
+  "name": "DRISHTI Lab - AI Research & Innovation",
+  "short_name": "DRISHTI Lab",
+  "description": "Deep Research in Intelligent Systems, Healthcare Technologies & Innovation",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#1e40af",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

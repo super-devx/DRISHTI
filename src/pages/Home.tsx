@@ -1,32 +1,39 @@
-import { motion } from 'framer-motion'
+import Hero from '../components/Hero'
+import AboutLab from '../components/AboutLab'
+import ResearchAreas from '../components/ResearchAreas'
+import Team from '../components/Team'
+import Publications from '../components/Publications'
+import Projects from '../components/Projects'
+import News from '../components/News'
+import Contact from '../components/Contact'
 
 function Home() {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.5 }}
-      className="min-h-screen flex items-center justify-center"
-    >
-      <div className="text-center">
-        <motion.h1
-          initial={{ y: -20 }}
-          animate={{ y: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-6xl font-bold text-blue-600 mb-4"
-        >
-          DRISHTI
-        </motion.h1>
-        <motion.p
-          initial={{ y: 20 }}
-          animate={{ y: 0 }}
-          transition={{ duration: 0.5, delay: 0.4 }}
-          className="text-xl text-gray-700"
-        >
-          Deep Research in Intelligent Sensors, Heuristic Technology & IoT
-        </motion.p>
-      </div>
-    </motion.div>
+    <div>
+      {/* Hero Section */}
+      <Hero />
+
+      {/* About Lab Section */}
+      <AboutLab />
+
+      {/* Research Areas Section */}
+      <ResearchAreas />
+
+      {/* Team Section */}
+      <Team />
+
+      {/* Publications Section */}
+      <Publications />
+
+      {/* Projects Section */}
+      <Projects />
+
+      {/* News & Updates Section */}
+      <News />
+
+      {/* Contact Section */}
+      <Contact />
+    </div>
   )
 }
 
