@@ -1,2 +1,2 @@
 # DRISHTI
-Deep Research in Intelligent Sensors, Technology &amp; IoT
+Deep Research in Intelligent Sensors, Heuristic Technology &amp; IoT
